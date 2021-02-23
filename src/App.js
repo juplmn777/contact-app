@@ -5,7 +5,7 @@ import contacts from './components/contacts';
 
 export default function App() {
   return (
-    <div className="container pt-6 pb-6">
+    <div className="container pt-4">
       <h1 className="title is-1 has-text-centered">A Simple Contact App</h1>
       <div className="columns is-centered">
         <div className="column is-4">

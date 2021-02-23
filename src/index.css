@@ -1,7 +1,19 @@
+@font-face {
+  font-family: 'hotsweat';
+  src: local('hotsweat'),
+    url('./fonts/hotsweat/HotSweat.ttf') format('truetype');
+}
+
+h1 {
+  font-family: hotsweat;
+}
 div.card {
   border: 1px solid #ff5757;
 }
 
+.contact-name {
+  font-family: hotsweat;
+}
 div.card-content {
   background: #ff5757;
 }
