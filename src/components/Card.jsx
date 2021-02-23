@@ -17,8 +17,12 @@ export default function Card(props) {
               <div className="media-left">
                 <TinyAvatar img={props.img} />
               </div>
+
               <div className="media-content">
                 <ContactName contactName={props.name} />
+              </div>
+              <div className="media-right">
+                <p className="title is-4 has-text-light">{props.contactId}</p>
               </div>
             </div>
             <div className="content has-text-left">
