@@ -22,7 +22,7 @@ export default function Card(props) {
                 <ContactName contactName={props.name} />
               </div>
               <div className="media-right">
-                <p className="title is-4 has-text-light">{props.contactId}</p>
+                <p className="title is-4 has-text-light contact-id"># {props.contactId}</p>
               </div>
             </div>
             <div className="content has-text-left">

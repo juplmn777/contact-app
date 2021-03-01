@@ -15,8 +15,12 @@ h1 {
 div.card {
   border: 1px solid #ff5757;
 }
-
+npm
 .contact-name {
+  font-family: hotsweat;
+}
+
+.contact-id {
   font-family: hotsweat;
 }
 div.card-content {
